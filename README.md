@@ -53,7 +53,7 @@ SpendWise is a scalable Android application designed to help users manage their 
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/e60d3612-6355-4eeb-8e75-e6a886e78a74" alt="Dashboard" width="220" height="450" /><br/>Dashboard</td>
-    <td><img src="[https://github.com/user-attachments/assets/example2.png](https://github.com/user-attachments/assets/844a3f79-2dc1-49af-a33d-1e40439a7619)" alt="Add Expense" width="220" height="450" /><br/>Add Expense</td>
+    <td><img src="https://github.com/user-attachments/assets/844a3f79-2dc1-49af-a33d-1e40439a7619" alt="Add Expense" width="220" height="450" /><br/>Add Expense</td>
     <td><img src="https://github.com/user-attachments/assets/1bfef5c8-f9ab-45c3-9cfd-150e79f58a2b" alt="Graphs & Pie Chart" width="220" height="450" /><br/>Graphs & Pie Chart</td>
   </tr>
 </table>
