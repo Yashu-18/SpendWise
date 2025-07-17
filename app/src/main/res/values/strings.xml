@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SpendWise</string>
+    <string name="login_text_html">
+    Already Have an Account? <font color='#57A7A2'><b>Log in</b></font>
+
+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

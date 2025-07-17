@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UI.fragments.AddTransactionFragment">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/background"
+        app:layout_constraintDimensionRatio="16:11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_medium"
+        android:text="Add Transaction"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_xlarge"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/heading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintDimensionRatio="1:1.52"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        app:cardCornerRadius="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cat"
+                android:text="Category"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:textSize="@dimen/text_small"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/categorySpinner"
+                android:padding="@dimen/text_small"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cat"
+                android:background="@drawable/spinner_background"
+                android:layout_marginStart="@dimen/text_medium"
+                android:layout_marginEnd="@dimen/text_medium"
+                android:layout_marginTop="@dimen/text_medium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/amtTxt"
+                android:text="Amount"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_small"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/categorySpinner"
+                android:layout_marginTop="@dimen/text_medium"
+                android:layout_marginStart="@dimen/text_medium"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/amt"
+                android:inputType="number"
+                android:background="@drawable/spinner_background"
+                android:padding="@dimen/text_small"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/amtTxt"
+                android:layout_marginStart="@dimen/text_medium"
+                android:layout_marginEnd="@dimen/text_medium"
+                android:layout_marginTop="@dimen/text_medium"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/datetxt"
+                android:text="Date"
+                android:textSize="@dimen/text_small"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/amt"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="@dimen/text_medium"
+                android:layout_marginStart="@dimen/text_medium"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/date"
+                android:padding="@dimen/text_small"
+                app:layout_constraintTop_toBottomOf="@+id/datetxt"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:background="@drawable/spinner_background"
+                android:drawableEnd="@drawable/calendar"/>
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_medium"
+                android:layout_marginTop="@dimen/text_medium"
+                android:text="Reccuring"
+                android:textSize="@dimen/text_large"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/date" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/toggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/text_medium"
+                android:showText="false"
+                app:layout_constraintBottom_toBottomOf="@+id/textView6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/repeateExp"
+                android:textSize="@dimen/text_small"
+                android:textStyle="bold"
+                android:text="Repeat This Expense After"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginTop="@dimen/margin_medium"/>
+
+            <Spinner
+                android:id="@+id/spinner_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_small"
+                app:layout_constraintTop_toBottomOf="@+id/repeateExp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:background="@drawable/spinner_background"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginStart="@dimen/margin_medium"/>
+
+
+            <Spinner
+                android:id="@+id/spinner_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_background"
+                android:padding="@dimen/text_small"
+                android:layout_marginStart="@dimen/margin_medium"
+                app:layout_constraintBottom_toBottomOf="@+id/spinner_number"
+                app:layout_constraintStart_toEndOf="@+id/spinner_number"
+                app:layout_constraintTop_toTopOf="@+id/spinner_number" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/materialButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:padding="@dimen/text_small"
+                android:text="ADD"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_medium"
+                app:backgroundTint="#438883"
+                app:cornerRadius="@dimen/text_small"
+                android:layout_marginTop="@dimen/margin_medium"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_number" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

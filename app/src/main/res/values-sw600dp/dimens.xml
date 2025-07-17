@@ -1,0 +1,34 @@
+<resources>
+    <dimen name="text_xsmall">15sp</dimen>
+    <dimen name="text_small">17sp</dimen>
+    <dimen name="text_medium">20sp</dimen>
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="text_xlarge">28sp</dimen>
+    <dimen name="text_title">40sp</dimen>
+    <dimen name="text_xtitle">48sp</dimen>
+
+    <dimen name="padding_xsmall">8dp</dimen>
+    <dimen name="padding_small">12dp</dimen>
+    <dimen name="padding_medium">20dp</dimen>
+    <dimen name="padding_large">28dp</dimen>
+    <dimen name="padding_xlarge">36dp</dimen>
+
+    <dimen name="button_Height">72dp</dimen>
+
+    <dimen name="margin_xsmall">8dp</dimen>
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_large">28dp</dimen>
+    <dimen name="margin_xlarge">50dp</dimen>
+
+    <dimen name="corner_radius_small">8dp</dimen>
+    <dimen name="corner_radius_medium">12dp</dimen>
+    <dimen name="corner_radius_large">20dp</dimen>
+
+    <dimen name="icon_size_small">30dp</dimen>
+    <dimen name="icon_size_medium">42dp</dimen>
+    <dimen name="icon_size_large">54dp</dimen>
+
+    <dimen name="margin_top_heading">64dp</dimen>
+    <dimen name="margin_top_icon">66dp</dimen>
+</resources>

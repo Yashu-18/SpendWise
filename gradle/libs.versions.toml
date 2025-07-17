@@ -1,0 +1,63 @@
+[versions]
+agp = "8.9.2"
+bom = "3.1.4"
+gotrueKt = "2.2.3"
+kotlin = "2.1.10"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinxSerializationJson = "1.8.0"
+ktorClientCore = "3.1.2"
+material = "1.12.0"
+activity = "1.10.1"
+constraintlayout = "2.2.1"
+mpandroidchart = "v3.1.0"
+places = "4.2.0"
+postgrestKt = "2.0.0"
+playServicesAuth = "21.3.0"
+firebaseFirestoreKtx = "25.1.4"
+postgrestKtVersion = "2.2.3"
+supabaseKt = "1.3.2"
+supabaseKtVersion = "1.3.2"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+auth-kt = { module = "io.github.jakejmattson.supabase:auth-kt", version.ref = "supabaseKt" }
+bom = { module = "io.github.jan-tennert.supabase:bom", version.ref = "bom" }
+github-gotrue-kt = { module = "io.github.jakejmattson.supabase:gotrue-kt", version.ref = "supabaseKt" }
+github-postgrest-kt = { module = "io.github.jakejmattson.supabase:postgrest-kt", version.ref = "supabaseKt" }
+gotrue-kt = { module = "io.github.jan-tennert.supabase:gotrue-kt", version.ref = "postgrestKt" }
+gotrue-kt-v223 = { module = "io.github.jan-tennert.supabase:gotrue-kt", version.ref = "gotrueKt" }
+jakejmattson-supabase-kt = { module = "io.github.jakejmattson:supabase-kt", version.ref = "supabaseKt" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktorClientCore" }
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktorClientCore" }
+ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktorClientCore" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktorClientCore" }
+ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktorClientCore" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+mpandroidchart = { module = "com.github.PhilJay:MPAndroidChart", version.ref = "mpandroidchart" }
+places = { group = "com.google.android.libraries.places", name = "places", version.ref = "places" }
+postgrest-kt = { module = "io.github.jan-tennert.supabase:postgrest-kt", version.ref = "postgrestKt" }
+postgrest-kt-v223 = { module = "io.github.jan-tennert.supabase:postgrest-kt", version.ref = "postgrestKtVersion" }
+realtime-kt = { module = "io.github.jakejmattson.supabase:realtime-kt", version.ref = "supabaseKt" }
+storage-kt = { module = "io.github.jakejmattson.supabase:storage-kt", version.ref = "supabaseKt" }
+supabase-gotrue-kt = { module = "io.github.jan-tennert.supabase:gotrue-kt" }
+supabase-kt = { module = "io.github.jan-tennert.supabase:supabase-kt", version.ref = "postgrestKt" }
+play-services-auth = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "playServicesAuth" }
+firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
+supabase-kt-v132 = { module = "io.github.jan-tennert.supabase:supabase-kt", version.ref = "supabaseKtVersion" }
+supabase-postgrest-kt = { module = "io.github.jan-tennert.supabase:postgrest-kt" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

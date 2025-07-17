@@ -1,0 +1,41 @@
+<resources>
+    <!-- Text Sizes -->
+    <dimen name="text_xsmall">13sp</dimen>
+    <dimen name="text_small">15sp</dimen>
+    <dimen name="text_medium">17sp</dimen>
+    <dimen name="text_large">21sp</dimen>
+    <dimen name="text_xlarge">25sp</dimen>
+    <dimen name="text_title">34sp</dimen>
+    <dimen name="text_xtitle">42sp</dimen>
+
+    <!-- Padding -->
+    <dimen name="padding_xsmall">5dp</dimen>
+    <dimen name="padding_small">9dp</dimen>
+    <dimen name="padding_medium">17dp</dimen>
+    <dimen name="padding_large">25dp</dimen>
+    <dimen name="padding_xlarge">33dp</dimen>
+
+    <!-- Button -->
+    <dimen name="button_Height">64dp</dimen>
+
+    <!-- Margins -->
+    <dimen name="margin_xsmall">5dp</dimen>
+    <dimen name="margin_small">9dp</dimen>
+    <dimen name="margin_medium">17dp</dimen>
+    <dimen name="margin_large">25dp</dimen>
+    <dimen name="margin_xlarge">40dp</dimen>
+
+    <!-- Corner Radius -->
+    <dimen name="corner_radius_small">5dp</dimen>
+    <dimen name="corner_radius_medium">9dp</dimen>
+    <dimen name="corner_radius_large">17dp</dimen>
+
+    <!-- Icon Sizes -->
+    <dimen name="icon_size_small">26dp</dimen>
+    <dimen name="icon_size_medium">38dp</dimen>
+    <dimen name="icon_size_large">50dp</dimen>
+
+    <!-- top margin heading -->
+    <dimen name="margin_top_heading">60dp</dimen>
+    <dimen name="margin_top_icon">62dp</dimen>
+</resources>
